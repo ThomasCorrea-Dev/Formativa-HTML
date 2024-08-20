@@ -1,0 +1,46 @@
+.topo{
+    border-bottom: 5px solid rgb(86, 77, 61); 
+    padding-bottom: 5px;
+}
+body{
+    background-image: url(Backgroud.jpg!d);
+    background-color: #1c1c1c;
+    color: #f0f0f0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.tabela-insana{
+    width: 400px;
+    margin: 20px auto;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #2b2b2b;
+}
+.tabela-insana img{
+    width: 100%;
+    border-bottom: 1px solid #444;
+}
+.tabela-insana th{
+    background-color: #3d3d3d;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+.tabela-insana td{
+    padding: 8px 12px;
+    border-bottom: 1px solid #444;
+}
+.tabela-insana tr:last-child td{
+    border-bottom: none;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.content {
+    width: 60%;
+}
+.trans{
+    background-color: rgba(0, 0, 0, 0.8);
+}
